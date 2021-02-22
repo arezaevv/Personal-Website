@@ -165,7 +165,7 @@ section:not(.hero){
 /* Hero styles */
 .hero{
     height:100vh;
-    background: url("./images/night_city.png") bottom center/cover;
+    background: url("./images/night_city-1.jpeg") bottom center/cover;
     position: relative;
     display: flex;
     justify-content: center;
@@ -380,13 +380,13 @@ section:not(.hero){
     border-bottom-color: var(--light-pink-color);
 }
 
-.orange i{
+.orange ion-icon{
     color: var(--orange-color);
 }
-.blue i{
+.blue ion-icon{
     color: var(--blue-color);
 }
-.yellow i{
+.yellow ion-icon{
     color: var(--yellow-color);
 }
 
@@ -743,13 +743,14 @@ section:not(.hero){
 .info-item-icon{
     background-color: var(--light-gray-color);
     display: flex;
+    height: 8rem;
     width: 10rem;
     font-size: 5rem;
     color: var(--blue-color);
     border-radius: 3px;
 }
 
-.info-item-icon i{
+.info-item-icon ion-icon{
     margin: auto;
 }
 
@@ -780,7 +781,11 @@ section:not(.hero){
     margin-bottom: 2rem;
     padding: 1rem;
 }
-
+.contact-form .captcha{
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 2rem;
+}
 .contact-form .btn{
     border: none;
     border-radius: 3px;
@@ -815,7 +820,7 @@ section:not(.hero){
         z-index: 2000;
     }
 
-    .hamburger-menu i{
+    .hamburger-menu ion-icon{
         margin: auto;
     }
 
