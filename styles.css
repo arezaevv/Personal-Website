@@ -165,7 +165,7 @@ section:not(.hero){
 /* Hero styles */
 .hero{
     height:100vh;
-    background: url("./images/night_city-1.jpeg") bottom center/cover;
+    background: url("./images/hero_background.jpg") bottom center/cover;
     position: relative;
     display: flex;
     justify-content: center;
